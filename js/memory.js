@@ -27,6 +27,7 @@ function shuffle(a) {
 function playAgain() {
     modal.classList.remove("active");
     startGame();
+    console.log(playAgain);
 }
 
 function startGame() {
